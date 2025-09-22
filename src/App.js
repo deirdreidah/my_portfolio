@@ -1,28 +1,23 @@
-import { BrowserRouter as Router, Routes , Route  } from "react-router-dom";
-import SideBar from './components/sidebar';
-
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Projects from './pages/Projects';
-import Inquiries from './pages/Inquiries';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MyNavbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
-      <div className='d-flex'>
-        <SideBar/>
-              <div className="ml-64 p-6 w-full">
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/inquiries" element={<Inquiries />} />
-          </Routes>
-                </div>
-      </div>
+      <MyNavbar />  {/* Navbar stays visible on all pages */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
-  }
+}
 
 export default App;
