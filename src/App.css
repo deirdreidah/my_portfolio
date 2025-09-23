@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* Make the whole app fill the screen */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Allow content to grow and push footer down */
+.app-container main {
+  flex: 1;
+}
+
+/* Footer style */
+footer {
+  background-color: #003366; /* deep blue */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto; /* pushes footer to bottom */
+}
