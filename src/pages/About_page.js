@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image, Table } from "react-bootstrap";
+import aboutimg from "../images/didi.jpg"
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       className="mt-5 p-4" >
       <Row>
         <Col md={4}>
-          <Image src={process.env.PUBLIC_URL + "images/didi.jpg"} alt="profile" fluid rounded />
+          <Image src={aboutimg} alt="profile" fluid rounded />
         </Col>
         <Col md={8}>
           <h2>I'm Navugga Deirdre Idah.</h2>

@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.686c4a0e.css",
-    "main.js": "/my_portfolio/static/js/main.3604a82e.js",
+    "main.js": "/my_portfolio/static/js/main.1a58adcf.js",
     "static/js/453.ba6cbcc4.chunk.js": "/my_portfolio/static/js/453.ba6cbcc4.chunk.js",
+    "static/media/My Portfolio.pdf": "/my_portfolio/static/media/My Portfolio.86cba1f4d92dcc735136.pdf",
+    "static/media/urban tech.png": "/my_portfolio/static/media/urban tech.587d77f8146a2e592562.png",
+    "static/media/book system.png": "/my_portfolio/static/media/book system.8f6c83afba699fae69b3.png",
+    "static/media/didi 2.jpg": "/my_portfolio/static/media/didi 2.644a3cbefe806353718e.jpg",
+    "static/media/didi.jpg": "/my_portfolio/static/media/didi.046c35b7749272dbc903.jpg",
+    "static/media/adobe image.png": "/my_portfolio/static/media/adobe image.77138664c300747e9bcc.png",
     "index.html": "/my_portfolio/index.html",
     "main.686c4a0e.css.map": "/my_portfolio/static/css/main.686c4a0e.css.map",
-    "main.3604a82e.js.map": "/my_portfolio/static/js/main.3604a82e.js.map",
+    "main.1a58adcf.js.map": "/my_portfolio/static/js/main.1a58adcf.js.map",
     "453.ba6cbcc4.chunk.js.map": "/my_portfolio/static/js/453.ba6cbcc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.686c4a0e.css",
-    "static/js/main.3604a82e.js"
+    "static/js/main.1a58adcf.js"
   ]
 }

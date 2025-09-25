@@ -1,19 +1,23 @@
 import React from "react";
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
+import adobeimg from "../images/adobe image.png"
+import websiteimg from "../images/urban tech.png"
+import bookimg from "../images/book system.png"
+import adobepdf from "../files/My Portfolio.pdf"
 
 function Projects() {
   const projects = [
     {
       title: "My Graphics Portfolio",
       description: "This portfolio shows the different things i have designed using Adobe Illustrator",
-      img: process.env.PUBLIC_URL + "images/adobe image.png",
+      img: adobeimg,
       tech: ["Adobe Illustrator"],
-      demo: process.env.PUBLIC_URL + "/My Portfolio.pdf"
+      demo: adobepdf
     },
     {
       title: "Construction Company Website",
       description: "A website for a construction company with about us page, services, projects gallery, and contact form. The about us page is all about the company, the services page has sub sections showing the different kinds of services offered.",
-      img: process.env.PUBLIC_URL + "images/urban tech.png",
+      img: websiteimg,
       tech: ["React", "Flask", "Bootstrap"],
       github: "https://github.com/Edit22d/UTEC-WEBSITE-FRONTEND",
       demo: "https://urbantechconsults.com/"
@@ -21,7 +25,7 @@ function Projects() {
     {
       title: "Book Management System",
       description: "A CRUD app that lets users add, update, and manage books locally with categorization. In this book system, you can have favorite books and you can also remove them from favorites. You can also search for a book by just typing any letter of the book.",
-      img: process.env.PUBLIC_URL + "images/book system.png",
+      img: bookimg,
       tech: ["JavaScript", "HTML", "Bootstrap"],
       github: "https://github.com/deirdreidah/javascript_book_project",
       demo: "file:///C:/Users/ir/Desktop/Year%201%20Sem%202%20Javascript/Book%20project/index.html"

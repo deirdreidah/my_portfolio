@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import homeimg from "../images/didi 2.jpg"
 
 function Home() {
   return (
@@ -29,7 +30,7 @@ function Home() {
           {/* Right Side (Image) */}
           <Col md={6} className="text-center">
             <Image
-              src={process.env.PUBLIC_URL + "images/didi 2.jpg"}
+              src={homeimg}
               alt="Didi"
               fluid
               roundedCircle
