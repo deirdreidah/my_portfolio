@@ -22,14 +22,14 @@ function Home() {
             </h1>
             <p style={{ fontSize: "1.2rem", marginTop: "1rem", maxWidth: "500px" }}>
               I am a Computer Science student passionate about designing, developing, 
-              and analyzing data. I have skills like
+              and analyzing data. 
             </p>
           </Col>
 
           {/* Right Side (Image) */}
           <Col md={6} className="text-center">
             <Image
-              src="images/didi 2.jpg"
+              src={process.env.PUBLIC_URL + "images/didi 2.jpg"}
               alt="Didi"
               fluid
               roundedCircle
