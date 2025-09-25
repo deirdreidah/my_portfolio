@@ -29,7 +29,7 @@ function Home() {
           {/* Right Side (Image) */}
           <Col md={6} className="text-center">
             <Image
-              src="/images/didi 2.jpg"
+              src="images/didi 2.jpg"
               alt="Didi"
               fluid
               roundedCircle
